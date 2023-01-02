@@ -1,0 +1,12 @@
+/* Construction guides */
+
+/* This section will be deleted when the portfolio project is final  */
+
+body,
+header,
+main,
+section,
+article,
+div {
+  border: 1px solid;
+}
