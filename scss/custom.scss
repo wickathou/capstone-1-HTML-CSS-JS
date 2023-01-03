@@ -10,3 +10,27 @@
 .small-icon {
   height: 50px;
 }
+
+.speaker-img-bg {
+  position: absolute;
+  background: url(/assets/img/speaker-bg.svg) no-repeat left top;
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  z-index: -10;
+}
+
+.speaker-img {
+  width: 120px;
+}
+
+.spacer {
+  display: inline-block;
+  background-color: $primary;
+  width: 100px;
+  height: 1px;
+}
+
+.cc-logo {
+  width: 50px;
+}
