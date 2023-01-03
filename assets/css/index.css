@@ -11637,7 +11637,7 @@ textarea.form-control-lg {
 }
 
 .generic-logo {
-  width: 250px;
+  width: 150px;
 }
 
 .bg-lightgray {
@@ -11664,6 +11664,36 @@ textarea.form-control-lg {
   background: url(/assets/img/overlay-2.jpg) no-repeat center center;
   background-size: cover;
   height: 250px;
+}
+
+.dk-hidden {
+  display: block;
+}
+
+.mobile-hidden {
+  display: none;
+}
+
+@media screen and (min-width: 700px) {
+  .dk-width {
+    max-width: 1000px;
+  }
+  .dk-text {
+    max-width: 600px;
+  }
+  .dk-gallery {
+    max-width: 150px;
+  }
+  .dk-hidden {
+    display: none;
+  }
+  .mobile-hidden {
+    display: block;
+  }
+  .partner-grid {
+    grid-template-areas: "logo logo logo logo logo";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
