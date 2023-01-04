@@ -8,28 +8,36 @@
   <title>About</title>
 </head>
 <body>
-  <header class="p-3 bg-light">
-    <nav class="navbar navbar-expand-lg navbar-light">
+  <header class="p-3 bg-light" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light p-3 mx-lg-5">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarScroll">
+        <div class="collapse navbar-collapse justify-content-lg-between" id="navbarScroll">
           <div class="navbar-brand">
             <img class="generic-logo" src="/assets/img/generic-logo.svg" alt="">
           </div>
-          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="/index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link active" aria-current="page"  href="/about.html">About</a>
             </li>
+          </ul>
+        </div>
       </div>
     </nav>
   </header>
   <main>
     <section class="px-3 pt-3 bg-secondary bg-gradient pb-5">
+      <div class="mobile-hidden d-flex justify-content-end" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">About</li>
+        </ol>
+      </div>
       <h3 class="fw-light text-primary text-center">This year is big! Join us</h3>
       <h1 class="display-3 mt-2 fw-bold text-primary text-center">Generic Conference Global Nonsens 2023</h1>
       <p class="mt-3 mb-4 p-2 border border-light rounded border-3 text-center">This is the Generic Global Summit, where we bring together the least influential and unimportant leaders from around the block to flap their gums about the non-issues and gossips of our time.</p>
@@ -101,5 +109,7 @@
       </div>
     </div>
   </footer>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="/assets/js/app.js"></script>
 </body>
 </html>
