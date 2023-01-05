@@ -11687,7 +11687,7 @@ textarea.form-control-lg {
 
 .nav-link {
   color: #ec5242;
-  transition: color 0.5;
+  transition: color 0.5s;
 }
 
 .nav-link:hover {
@@ -11716,4 +11716,4 @@ textarea.form-control-lg {
   }
 }
 
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=bootstrap-mod.css.map */
