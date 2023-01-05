@@ -56,13 +56,24 @@
 #img-overlay-1 {
   background: url(/assets/img/overlay-1.jpg) no-repeat center center;
   background-size: cover;
-  height: 250px;
 }
 
 #img-overlay-2 {
   background: url(/assets/img/overlay-2.jpg) no-repeat center center;
   background-size: cover;
-  height: 250px;
+}
+
+.bg-pattern-1 {
+  background: url(/assets/img/bg-decoration2.svg) repeat;
+}
+
+.bg-mod {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bg-hero {
+  background: url(/assets/img/hero.svg) no-repeat center center;
+  background-color: rgb(222, 217, 214);
 }
 
 .dk-hidden {
@@ -71,6 +82,15 @@
 
 .mobile-hidden {
   display: none;
+}
+
+.nav-link {
+  color: $primary;
+  transition: color 0.5;
+}
+
+.nav-link:hover {
+  color: $blue;
 }
 
 @media screen and (min-width: 700px) {
@@ -92,5 +112,10 @@
 
   .mobile-hidden {
     display: block;
+  }
+
+  .dk-img-width {
+    width: 350px;
+    height: 350px;
   }
 }

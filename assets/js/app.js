@@ -1,5 +1,6 @@
 const speakersSection = document.querySelector('#speakers');
 const speakerLoader = document.querySelector('#speaker-loader')
+const navbarElements = document.querySelectorAll('.nav-item')
 
 const speakers = [
   {
@@ -45,10 +46,12 @@ function speakerBlock(speaker) {
   speakerEntry.className = 'container my-4 col-lg-6 gx-lg-5';
   speakerEntry.innerHTML = `<div class="row lh-1"><div class="col-4"><span class="speaker-img-bg"></span><img class="speaker-img" src="${speaker.image}" alt=""></div><div class="col-8"><h6>${speaker.name}</h6><p class="lh-1 mb-0">${speaker.intro}</p><span class="spacer"></span><p class="lh-1">${speaker.description}</p></div></div>`;
   speakersSection.appendChild(speakerEntry);
-}
+};
 
-for (let i = 0; i < 4; i++) {
-  speakerBlock(speakers[i]);
+if (location.pathname === '/index.html') {
+  for (let i = 0; i < 4; i++) {
+    speakerBlock(speakers[i]);
+  };
 };
 
 function speakerLoad(speakerList) {
@@ -65,8 +68,16 @@ function disableSpeakerLoad() {
   speakerLoader.toggleAttribute('disabled');
 }
 
-speakerLoader.addEventListener('click', () => {
-  clearSpeakers();
-  speakerLoad(speakers);
-  disableSpeakerLoad()
-});
+if (location.pathname === '/index.html') {
+  speakerLoader.addEventListener('click', () => {
+    clearSpeakers();
+    speakerLoad(speakers);
+    disableSpeakerLoad()
+  });
+}
+
+navbarElements.forEach((element) => {
+  element.addEventListener('mouseover', () => {
+    console.log('hover');
+  });
+})
