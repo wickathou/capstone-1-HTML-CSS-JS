@@ -70,6 +70,6 @@ if (location.pathname === '/index.html') {
   speakerLoader.addEventListener('click', () => {
     clearSpeakers();
     speakerLoad(speakers);
-    disableSpeakerLoad()
+    disableSpeakerLoad();
   });
 }

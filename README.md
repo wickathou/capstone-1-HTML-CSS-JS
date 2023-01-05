@@ -43,7 +43,7 @@ GIT | A code editor | A web browser
 
 Clone this repository to your desired folder:
 
-  git clone git@github.com:wickathou/capstone-1-HTML-CSS-JS.git
+  `git clone git@github.com:wickathou/capstone-1-HTML-CSS-JS.git`
 
 ### Usage
 
