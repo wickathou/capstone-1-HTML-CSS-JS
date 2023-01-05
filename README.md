@@ -10,6 +10,7 @@
     - [Setup](#setup)
     - [Usage](#usage)
   - [👥 Author ](#-author-)
+  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
@@ -58,11 +59,18 @@ To run the project, open index.html with your preferred web browser or open it w
 - LinkedIn: [@javierjhm](https://linkedin.com/in/javierjhm)
 - Instagram: [@digijavi](https://www.instagram.com/digijavi/)
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Browser data storage]**
+- [ ] **[New live view]**
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Feel free to check the [issues page](https://github.com/wickathou/portfolio/issues).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Thanks to [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 Thanks to my coding partners!
 
