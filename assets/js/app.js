@@ -5,37 +5,37 @@ const speakers = [
     name: 'Norm Alname',
     intro: 'Unknown person, who is doing whatever',
     description: 'The backstory to this person, all based on literally nothing, who knows what they have done',
-    image: '/assets/img/Speaker1.png',
+    image: './assets/img/Speaker1.png',
   },
   {
     name: 'Wei R Dname',
     intro: 'A known renown person, who is a basic as most can be',
     description: 'I haveve spent years researching the habits and habitats of unicorns, dragons, and other fantastical beasts.',
-    image: '/assets/img/Speaker2.png',
+    image: './assets/img/Speaker2.png',
   },
   {
     name: 'Norm Alname',
     intro: 'Lesser known person, who is less known',
     description: 'From the absurd poetry of Edward Lear to the nonsensical plays of the Dadaists, I have devoted my career to understanding.',
-    image: '/assets/img/Speaker3.png',
+    image: './assets/img/Speaker3.png',
   },
   {
     name: 'Od Dlame',
     intro: 'This person knows some things, who is rare as most can be',
     description: 'From debunking urban legends to analyzing the logical fallacies in conspiracy theories',
-    image: '/assets/img/Speaker4.png',
+    image: './assets/img/Speaker4.png',
   },
   {
     name: 'Gif Tofgab',
     intro: 'Creative odd person, making things here and there',
     description: 'Whether it is exploring the role of humor in coping with stress or the psychological benefits.',
-    image: '/assets/img/Speaker5.png',
+    image: './assets/img/Speaker5.png',
   },
   {
     name: 'Rando Missue',
     intro: 'Makes randomized things here and then goes over there',
     description: 'From designing impractical gadgets to constructing absurdly overcomplicated machines',
-    image: '/assets/img/Speaker6.png',
+    image: './assets/img/Speaker6.png',
   },
 ];
 
