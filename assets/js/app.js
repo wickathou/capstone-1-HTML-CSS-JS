@@ -1,7 +1,5 @@
 const speakersSection = document.querySelector('#speakers');
-const speakerLoader = document.querySelector('#speaker-loader')
-const navbarElements = document.querySelectorAll('.nav-item')
-
+const speakerLoader = document.querySelector('#speaker-loader');
 const speakers = [
   {
     name: `Norm Alname`,
@@ -75,9 +73,3 @@ if (location.pathname === '/index.html') {
     disableSpeakerLoad()
   });
 }
-
-navbarElements.forEach((element) => {
-  element.addEventListener('mouseover', () => {
-    console.log('hover');
-  });
-})
