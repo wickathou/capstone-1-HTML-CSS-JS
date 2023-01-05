@@ -28,6 +28,7 @@ As base styling framework, I used [Bootstrap 5](https://getbootstrap.com/docs/5.
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://wickathou.github.io/capstone-1-HTML-CSS-JS)
+- [Video walkthrough](https://www.loom.com/share/de68a2b1d05c4765940b10ab4d90e89e)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
