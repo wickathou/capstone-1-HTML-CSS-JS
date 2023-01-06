@@ -1,5 +1,7 @@
 const speakersSection = document.querySelector('#speakers');
 const speakerLoader = document.querySelector('#speaker-loader');
+const docTitle = document.title;
+const titleRegex = /\bhome\b/;
 const speakers = [
   {
     name: 'Norm Alname',
@@ -66,7 +68,7 @@ function disableSpeakerLoad() {
   speakerLoader.toggleAttribute('disabled');
 }
 
-if (document.title === 'Home') {
+if (titleRegex.test(titleRegex)) {
   speakerLoader.addEventListener('click', () => {
     clearSpeakers();
     speakerLoad(speakers);
