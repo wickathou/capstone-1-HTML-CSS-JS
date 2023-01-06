@@ -68,7 +68,7 @@ function disableSpeakerLoad() {
   speakerLoader.toggleAttribute('disabled');
 }
 
-if (titleRegex.test(titleRegex)) {
+if (titleRegex.test(docTitle)) {
   speakerLoader.addEventListener('click', () => {
     clearSpeakers();
     speakerLoad(speakers);
