@@ -1,7 +1,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Portfolio Micro ](#-portfolio-micro-)
+- [📖 Capstone UNO ](#-capstone-uno-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
   - [🚀 Live Demo ](#-live-demo-)
@@ -15,7 +15,7 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖 Portfolio Micro <a name="about-project"></a>
+# 📖 Capstone UNO <a name="about-project"></a>
 
 **Capstone UNO** A website deployed using SCSS, HTML and JS. This project's goal is to showcase how well I understand the fundamentals of web development. This website follows the structure and design from Cindy Shin, [titled "CC Global Summit 2015](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 ## 🛠 Built With <a name="built-with"></a>
