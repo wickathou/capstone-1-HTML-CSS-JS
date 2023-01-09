@@ -66,7 +66,7 @@ To run the project, open index.html with your preferred web browser or open it w
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Feel free to check the [issues page](https://github.com/wickathou/portfolio/issues).
+Feel free to check the [issues page](https://github.com/wickathou/capstone-1-HTML-CSS-JS/issues).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
