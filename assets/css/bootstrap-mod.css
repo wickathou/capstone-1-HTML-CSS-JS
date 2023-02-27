@@ -11614,7 +11614,7 @@ textarea.form-control-lg {
 
 .speaker-img-bg {
   position: absolute;
-  background: url(./assets/img/speaker-bg.svg) no-repeat left top;
+  background: url(/capstone-1-HTML-CSS-JS/assets/img/speaker-bg.svg) no-repeat left top;
   background-size: cover;
   width: 80px;
   height: 80px;
@@ -11655,17 +11655,17 @@ textarea.form-control-lg {
 }
 
 #img-overlay-1 {
-  background: url(/assets/img/overlay-1.jpg) no-repeat center center;
+  background: url(/capstone-1-HTML-CSS-JS/assets/img/overlay-1.jpg) no-repeat center center;
   background-size: cover;
 }
 
 #img-overlay-2 {
-  background: url(/assets/img/overlay-2.jpg) no-repeat center center;
+  background: url(/capstone-1-HTML-CSS-JS/assets/img/overlay-2.jpg) no-repeat center center;
   background-size: cover;
 }
 
 .bg-pattern-1 {
-  background: url(/assets/img/bg-decoration2.svg) repeat;
+  background: url(/capstone-1-HTML-CSS-JS/assets/img/bg-decoration2.svg) repeat;
 }
 
 .bg-mod {
@@ -11673,7 +11673,7 @@ textarea.form-control-lg {
 }
 
 .bg-hero {
-  background: url(/assets/img/hero.svg) no-repeat center center;
+  background: url(/capstone-1-HTML-CSS-JS/assets/img/hero.svg) no-repeat center center;
   background-color: rgb(222, 217, 214);
 }
 
