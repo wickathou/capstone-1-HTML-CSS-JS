@@ -1,7 +1,5 @@
 const speakersSection = document.querySelector('#speakers');
 const speakerLoader = document.querySelector('#speaker-loader');
-const docTitle = document.title;
-const titleRegex = /\bhome\b/;
 const speakers = [
   {
     name: 'Norm Alname',
@@ -48,10 +46,9 @@ function speakerBlock(speaker) {
   speakersSection.appendChild(speakerEntry);
 }
 
-if (document.title === 'Home') {
-  for (let i = 0; i < 4; i += 1) {
-    speakerBlock(speakers[i]);
-  }
+for (let i = 0; i < 4; i += 1) {
+  console.log('test');
+  speakerBlock(speakers[i]);
 }
 
 function speakerLoad(speakerList) {
@@ -68,10 +65,8 @@ function disableSpeakerLoad() {
   speakerLoader.toggleAttribute('disabled');
 }
 
-if (titleRegex.test(docTitle)) {
-  speakerLoader.addEventListener('click', () => {
-    clearSpeakers();
-    speakerLoad(speakers);
-    disableSpeakerLoad();
-  });
-}
+speakerLoader.addEventListener('click', () => {
+  clearSpeakers();
+  speakerLoad(speakers);
+  disableSpeakerLoad();
+});
